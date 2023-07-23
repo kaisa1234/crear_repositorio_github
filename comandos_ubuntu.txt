@@ -1,0 +1,39 @@
+1. pwd = donde nos encontramos
+2. clear = limpiar la pantalla
+3. ls  = listar directorios
+4. ls -l= muestra todos los directorios y archivos de una ubicacion en forma de lista
+5.ls -la = muestra archivos ocultos 
+6. ll = muestra todos los archivos tambien los ocultos
+7. man ls = muestra descripcion, brinda info del comando
+8.sudo = abreviatura del superusuario sintaxis sudo (comando)
+-k o -reset-timestamp invalida el archivo timestamp.
+-g o -group=group ejecuta comandos como un nombre o ID de grupo especificado.
+-h o -host=host ejecuta comandos en el host.
+9. cd = Para navegar por los archivos y directorios de Linux
+10. cat = Este lista, combina y escribe el contenido de los archivos en la salida estándar
+ejemplo:  cat archivo.txt
+Aquí hay otras formas de usar el comando cat:
+
+cat > nombredearchivo.txt crea un nuevo archivo.
+cat nombredearchivo1.txt nombredearchivo2.txt>nombredearchivo3.txt fusiona nombrearchivo1.txt y nombrearchivo2.txt y almacena el resultado en nombrearchivo3.txt.
+tac nombrearchivo.txt muestra el contenido en orden inverso.
+11. cp = Utiliza el comando cp para copiar archivos o directorios y su contenido.
+12.mv = El uso principal del comando mv es mover archivos, aunque también se puede usar para cambiar el nombre de los archivos.
+13. mkdir = Utiliza el comando mkdir para crear uno o varios directorios a la vez y establecer los permisos para cada uno de ellos.
+14.rmdir = Para eliminar permanentemente un directorio vacío, utiliza el comando rmdir.
+15.rm = El comando rm se utiliza para borrar archivos dentro de un directorio.
+16.touch = El comando touch permite crear un archivo vacío o generar y modificar una marca de tiempo en la línea de comandos de Linux.
+17. locate = el comando locate puedes encontrar un archivo en el sistema de base de datos.
+18.find = Utiliza el comando find para buscar archivos dentro de un directorio específico y realizar operaciones posteriores.
+19. grep = Otro comando básico de Linux en la lista es grep o impresión global de expresiones regulares. Te permite encontrar una palabra buscando entre todos los textos de un archivo específico..
+20.df=Utiliza el comando df para informar sobre el uso del espacio en disco del sistema, mostrado en porcentaje y en kilobytes (KB)
+21. du = Si quieres comprobar cuánto espacio ocupa un archivo o un directorio, utiliza el comando du.
+22.head = El comando head permite ver las diez primeras líneas de un texto. Añadiendo una opción se puede cambiar el número de líneas mostradas.
+23. tail= El comando tail muestra las diez últimas líneas de un archivo. Permite a los usuarios comprobar si un archivo tiene datos nuevos o leer mensajes de error.
+24. diff = Abreviatura de diferencia, el comando diff compara dos contenidos de un archivo línea por línea. Tras analizarlos, mostrará las partes que no coincidan.
+25. tar = El comando tar archiva múltiples ficheros en un fichero TAR, un formato común de Linux similar a ZIP, con compresión opcional.
+26. chmod =chmod es un comando común que modifica los permisos de lectura, escritura y ejecución de un archivo o directorio. En Linux, cada archivo está asociado a tres clases de usuarios: propietario, miembro de grupo y otros..
+27. chown = El comando chown permite cambiar la propiedad de un archivo, directorio o enlace simbólico a un nombre de usuario específico.
+28. jobs = Un job es un proceso que el shell inicia. El comando jobs mostrará todos los procesos en ejecución junto con sus estados. Recuerda que este comando sólo está disponible en los shells csh, bash, tcsh y ksh.
+29. kill = Utiliza el comando kill para terminar manualmente un programa que no responde. Este señalará a las aplicaciones que se comporten mal y les indicará que cierren sus procesos.
+30.ping  = El comando ping es uno de los comandos esenciales de Linux más utilizados para comprobar si se puede acceder a una red o a un servidor. Además, se utiliza para solucionar diversos problemas de conectividad.
